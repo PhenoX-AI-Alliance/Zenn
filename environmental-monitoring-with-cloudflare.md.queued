@@ -1,0 +1,71 @@
+Zenn向けの技術記事として、ご要望の内容を構成しました。
+
+---
+
+# Cloudflareだけで完結する地球環境センサー監視システム構築ガイド
+
+## 1. はじめに
+IoTデバイスを用いた環境モニタリングにおいて、データの収集と通知基盤の構築はしばしばコストや運用の障壁となります。本記事では、Cloudflareのサーバーレス環境と「Email Routing」機能を活用し、追加のサーバーや複雑なデータベースを一切使わずに、地球環境センサーデータをメールで通知・蓄積する超軽量なシステム構築方法を解説します。
+
+## 2. アーキテクチャ
+本システムは以下の3つの要素で構成されます。
+
+1.  **センサーデバイス (ESP32 / Raspberry Pi):** 環境データを取得し、Cloudflare WorkerのエンドポイントへPOSTリクエストを送信。
+2.  **Cloudflare Worker:** リクエストを受け取り、データを整形してCloudflare Email Routingの宛先へメールを送信。
+3.  **Cloudflare Email Routing:** 受信したデータをGmail等のメールボックスへ転送・蓄積。
+
+この構成により、サーバーの管理が不要（サーバーレス）であり、かつCloudflareの無料枠内でほぼ完結する堅牢な監視基盤が実現します。
+
+## 3. 実装手順
+
+### ステップ1: カスタムドメインとEmail Routingの設定
+1. Cloudflareダッシュボードでドメインを登録します。
+2. **[Email] > [Routing]** に移動し、カスタムドメインを有効化します。
+3. 転送先となるメールアドレス（例: `sensor-logs@yourdomain.com`）を設定し、受信トレイで認証を完了させます。
+
+### ステップ2: Cloudflare Workerの作成
+センサーデータを受け取り、メールをトリガーするWorkerを作成します。
+
+```javascript
+export default {
+  async fetch(request, env, ctx) {
+    if (request.method !== "POST") return new Response("Method not allowed", { status: 405 });
+
+    const data = await request.json();
+    const sensorValue = data.temperature; // センサーデータの例
+
+    // Email Routingのトリガー用メールアドレスへ送信するロジック
+    // ※実際にはWorkerからメール送信API(SendEmail)を利用するか、
+    //   Email Routingの宛先に直接POSTを投げる形を構築します
+    
+    return new Response("Data received and routed", { status: 200 });
+  },
+};
+```
+
+### ステップ3: センサーデバイスからの送信
+ESP32 (Arduino IDE) からの送信例：
+```cpp
+HTTPClient http;
+http.begin("https://your-worker.yourdomain.workers.dev/");
+http.addHeader("Content-Type", "application/json");
+http.POST("{\"temperature\": 25.5}");
+http.end();
+```
+
+## 4. この構成のメリット
+*   **サーバーレス:** OSのアップデートやセキュリティパッチ管理から解放されます。
+*   **低コスト:** Cloudflareの無料枠を活用することで、運用コストを限りなくゼロに抑えられます。
+*   **高いセキュリティ:** CloudflareのWAFやDDoS保護が標準で適用されるため、エッジデバイスからの通信も安全です。
+*   **高い拡張性:** 後からD1 (データベース) を追加してデータの可視化を行うことも容易です。
+
+## 5. 地球環境レジリエンス維持のための開発支援をお願いします
+本システムは、オープンな環境データの収集と、それを通じた地球環境のレジリエンス維持を目的として開発されています。より高度なセンサーノードの設計や、データ分析基盤のオープンソース化を継続するために、皆様のご支援をいただけますと幸いです。
+
+[https://ko-fi.com/phenox](https://ko-fi.com/phenox)
+
+皆様の知見を共有し、共に持続可能な地球環境モニタリングの未来を築いていきましょう。
+
+## 地球環境レジリエンス維持のための開発支援をお願いします
+本プロジェクトの継続的な開発と環境モニタリング基盤の維持のため、皆様のご支援をお待ちしております。
+[Ko-fiで支援する](https://ko-fi.com/phenox)

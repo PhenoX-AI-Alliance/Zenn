@@ -1,0 +1,69 @@
+# Cloudflareで構築する地球環境データ監視システム：独自ドメインメールと自動通知の技術
+
+地球環境の変化をリアルタイムで把握することは、持続可能な未来を築くための第一歩です。本記事では、Cloudflareの強力なインフラを活用し、環境データを監視して独自ドメイン経由でアラートを送信する、サーバーレスな監視システムの構築方法を解説します。
+
+---
+
+## 1. Cloudflare Email Routingの活用
+
+通常、環境データのアラート通知には外部のメール配信サービスを利用することが多いですが、設定が煩雑になりがちです。Cloudflareの **Email Routing** を活用することで、独自ドメインを使用して、信頼性の高い通知システムを構築できます。
+
+Email Routingは、受信したメールを特定の宛先に転送するだけでなく、Workerと組み合わせることで、プログラムから動的にメールを処理・送信する基盤として活用可能です。
+
+## 2. 環境データ取得と通知のPython実装
+
+今回は、OpenWeatherMap APIを使用して気温データを取得し、閾値を超えた場合に通知を送るスクリプトの概念を紹介します。
+
+※実際の運用では、Cloudflare Workers上で実行するためにPython（Pyodide）またはJavaScript（Wrangler）を使用しますが、ここではロジックの核となるPythonコードを示します。
+
+```python
+import requests
+
+def check_environment_data():
+    # APIから気温を取得
+    api_url = "https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=YOUR_API_KEY"
+    response = requests.get(api_url).json()
+    temp = response['main']['temp'] - 273.15 # ケルビンから摂氏へ
+
+    # 閾値判定
+    if temp > 30.0:
+        send_alert(f"警告: 現在の気温が {temp:.1f}℃ です。")
+
+def send_alert(message):
+    # Cloudflare Workers経由でメールを送信するエンドポイントを想定
+    requests.post("https://your-worker-url.workers.dev/send-email", json={
+        "to": "admin@yourdomain.com",
+        "subject": "環境データアラート",
+        "body": message
+    })
+```
+
+## 3. Cloudflare Workers/Routesの構築ステップ
+
+以下の手順で、サーバーレスな通知インフラを構築します。
+
+1. **Email Routingの設定**:
+   - Cloudflareダッシュボードの「Email」セクションから、独自ドメインを有効化します。
+2. **Workerの作成**:
+   - `wrangler` CLIを使用して新しいWorkerプロジェクトを作成します。
+   - [Cloudflare Workers Email Sender](https://developers.cloudflare.com/workers/examples/sending-email/) を参考に、`EmailMessage` クラスを使用してメール送信機能を実装します。
+3. **Cron Triggerの設定**:
+   - `wrangler.toml` に `[triggers]` を設定し、定期的にスクリプトを実行するようにします。
+   ```toml
+   [triggers]
+   crons = ["0 * * * *"] # 1時間ごとに実行
+   ```
+4. **デプロイ**:
+   - `wrangler deploy` コマンドでCloudflareのエッジネットワークにデプロイします。
+
+これにより、サーバーを管理することなく、低コストで環境監視システムを運用できます。
+
+## 4. まとめ
+
+Cloudflareのインフラを活用することで、地球環境データの監視からアラート通知までを非常に効率的に実装可能です。独自ドメインを利用することで、通知の信頼性を高めつつ、サーバーレスの恩恵を最大限に享受できます。ぜひ、あなたの環境データプロジェクトに導入してみてください。
+
+## 地球環境保護プロジェクトへの継続的な支援をお願いします
+
+私たちの活動にご賛同いただける方は、ぜひ以下のリンクからプロジェクトへのご支援をお願いいたします。皆様のサポートが、地球環境の未来を守るための技術開発の大きな力となります。
+
+https://ko-fi.com/phenox

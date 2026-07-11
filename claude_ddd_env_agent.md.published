@@ -1,0 +1,83 @@
+# Claude CodeとDDDで構築する：地球環境データ監視・最適化エージェントの設計判断フロー
+
+近年、AIエージェント開発において「設計の質」と「実装スピード」の両立が求められています。本記事では、**Claude Code**を活用したドメイン駆動設計（DDD）によるプロトタイピング手法と、地球環境データ（温度・湿度・CO2濃度など）を監視・最適化するエージェントの設計判断フローを解説します。
+
+---
+
+## 1. Claude CodeによるDDDプロトタイピングの加速
+
+DDDの導入において最大の壁は「ボイラープレートの多さ」と「ドメインモデルの修正コスト」です。Claude Codeを活用することで、以下のサイクルを劇的に高速化できます。
+
+1.  **ユビキタス言語の定義**: Claudeにドメイン知識を入力し、エンティティや値オブジェクトの定義を対話的に生成。
+2.  **境界づけられたコンテキストの分離**: `monitoring`（監視）と`optimization`（最適化）の境界をClaude Codeに指示し、ディレクトリ構造を自動生成。
+3.  **リファクタリングの自動化**: ロジックの変更時に、依存関係を壊さずにインターフェースを修正させる。
+
+これにより、開発者は「ビジネスロジックの本質」に集中できます。
+
+---
+
+## 2. 環境データ監視エージェントのアーキテクチャ
+
+本システムは、以下のレイヤーで構成されます。
+
+*   **Domain Layer**: `EnvironmentalMetric`（値オブジェクト）、`Sensor`（エンティティ）
+*   **Application Layer**: `DataIngestionService`（データ取り込み）、`OptimizationService`（最適化実行）
+*   **Infrastructure Layer**: `optimization_engine.py`（計算ロジック）
+
+設計判断のポイントは、**「監視データ（Read）」と「最適化ロジック（Write/Command）」の分離**です。これにより、将来的なセンサーの追加や、最適化アルゴリズムの差し替えが容易になります。
+
+---
+
+## 3. optimization_engine.py の設計ロジック
+
+最適化エンジンは、現在の環境状態を受け取り、エネルギー効率を最大化するための「推奨アクション」を返します。ここでは、シンプルながら強力な重み付けアルゴリズムを採用しています。
+
+### optimization_engine.py
+
+```python
+from dataclasses import dataclass
+from typing import Dict
+
+@dataclass
+class EnvironmentalState:
+    temperature: float
+    humidity: float
+    co2_level: float
+
+class OptimizationEngine:
+    """環境データに基づき、空調等の最適化アクションを決定するエンジン"""
+    
+    def __init__(self, thresholds: Dict[str, float]):
+        self.thresholds = thresholds
+
+    def calculate_optimal_action(self, state: EnvironmentalState) -> str:
+        # CO2濃度が閾値を超えた場合、換気を優先
+        if state.co2_level > self.thresholds['co2_max']:
+            return "INCREASE_VENTILATION"
+        
+        # 温度と湿度のバランスによる最適化
+        if state.temperature > self.thresholds['temp_max']:
+            return "COOLING_MODE_ON"
+        elif state.temperature < self.thresholds['temp_min']:
+            return "HEATING_MODE_ON"
+            
+        return "MAINTAIN_CURRENT_STATE"
+```
+
+このロジックは、DDDの「ドメインサービス」として機能し、特定の環境状態からビジネスルールに基づいた意思決定を行います。
+
+---
+
+## 4. 全ソースコードの提供について
+
+本記事で紹介したエージェントの全コード（テストコード、DIコンテナ設定、データパイプラインを含む）は、GitHubリポジトリにて公開しています。
+
+実務での導入を検討されている方や、より高度な設計パターン（CQRS/Event Sourcing）に関心のある方は、以下のリンクからフルソースコードをご購入いただけます。
+
+**[全ソースコードの購入はこちら（Stripe）]**
+*(ここにStripeの決済リンクを貼り付けてください)*
+
+---
+
+### まとめ
+Claude Codeを活用すれば、DDDの厳格な設計を維持しつつ、驚異的な速度でプロトタイプを構築可能です。地球環境データという複雑なドメインも、適切な境界設計と計算エンジンの分離によって、保守性の高いシステムとして実装できます。ぜひ、お手元の環境でお試しください。

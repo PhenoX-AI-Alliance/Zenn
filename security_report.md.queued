@@ -1,0 +1,16 @@
+---
+title: "Googleアカウントセキュリティ通知の自動検知レポート"
+emoji: "🛡️"
+type: "tech"
+topics: ["security", "google", "automation"]
+published: true
+---
+
+Googleアカウントへの不審なログイン通知を検知しました。
+自動システムによりログを保存し、管理者に通知しました。
+
+詳細なアクティビティ確認は、Googleの公式ダッシュボードから行ってください。
+
+### 支援・サポート
+本プロジェクトのセキュリティ運用継続のため、ご支援をお願いします。
+[https://ko-fi.com/phenox_ai](https://ko-fi.com/phenox_ai)

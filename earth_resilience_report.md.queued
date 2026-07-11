@@ -1,0 +1,16 @@
+---
+title: "地球環境モニタリングダッシュボードの構築と意義"
+emoji: "🌍"
+type: "tech"
+topics: ["environment", "data", "toai"]
+published: true
+---
+
+地球環境のレジリエンスを可視化することは、持続可能な未来を設計する上で不可欠です。
+本プロジェクトでは、リアルタイム気候データを取得し、可視化するダッシュボードを構築しました。
+
+詳細は以下のHTMLファイルで確認可能です: /home/phenox/gemini-sandbox/TOAI_Generated/earth_resilience_monitor.html
+
+このツールは、環境変動を定量的かつ迅速に把握することで、意思決定の迅速化に寄与します。
+
+地球環境レジリエンス支援のためのKo-fiリンク: https://ko-fi.com/toai_resilience

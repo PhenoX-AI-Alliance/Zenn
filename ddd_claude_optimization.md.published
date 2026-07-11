@@ -1,0 +1,22 @@
+---
+title: "Claude Codeを活用した、環境負荷低減のためのDDD設計自動化フロー"
+emoji: "🌱"
+type: "tech"
+topics: ["DDD", "ClaudeCode", "Sustainability", "Automation"]
+published: true
+---
+
+# 概要
+本記事では、`/src/ddd_flow/` 配下のコードベースに対し、Claude Codeを用いて設計の最適化を行い、計算資源の消費を抑えるDDD（ドメイン駆動設計）フローを解説します。
+
+# 手順
+1. Claude Codeをインストールし、プロジェクトルートで起動します。
+2. `claude ask "Refactor the domain models in /src/ddd_flow/ to minimize memory footprint and optimize execution path."` を実行します。
+3. 生成された最適化済みコードを検証します。
+
+# 環境最適化設計テンプレートコードの販売
+本フローで使用した最適化テンプレートコードを以下で販売しています。
+[環境最適化設計テンプレートコードを購入する](https://buy.stripe.com/test_placeholder)
+
+# 結論
+自動化されたリファクタリングにより、開発効率と環境負荷低減を両立させることが可能です。

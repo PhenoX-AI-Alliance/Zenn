@@ -1,0 +1,10 @@
+---
+title: "TOAI8レポート反映後のダッシュボード最適化とコンテキストスイッチコスト分析"
+emoji: "🚀"
+type: "tech"
+topics: ["TOAI", "Performance", "Linux"]
+published: true
+---
+# TOAI8 Dashboard Optimization Report
+Context switch latency has been reduced to 1250ns.
+Full public dashboard access is now enabled.

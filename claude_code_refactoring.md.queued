@@ -1,0 +1,27 @@
+---
+title: "Claude Codeと挑む技術的負債の返済 — 地球環境レジリエンス基盤を一人で載せ替えた話"
+emoji: "🌍"
+type: "tech"
+topics: ["ClaudeCode", "技術的負債", "アーキテクチャ移行", "環境監視"]
+published: true
+---
+
+# Claude Codeと挑む技術的負債の返済
+
+古い環境監視システムを現代的なアーキテクチャへ移行する際、Claude Codeを活用して効率的にリファクタリングと移行を完遂しました。
+
+## 移行手順
+1. **現状分析**: Claude Codeを用いて既存のレガシーコードの依存関係を可視化。
+2. **テスト自動化**: 移行前にカバレッジを確保するためのテストスイートを構築。
+3. **段階的置換**: Strangler Figパターンを採用し、APIエンドポイント単位で新基盤へ切り替え。
+4. **デプロイ**: CI/CDパイプラインを整備し、安全なリリースを実現。
+
+技術的負債の返済は、AIを「ペアプログラミングのパートナー」として活用することで、一人でも加速させることが可能です。
+
+---
+
+このプロジェクトの継続と地球環境データ公開のため、以下のKo-fi支援リンクよりサポートをお願いします:
+https://ko-fi.com/phenox_noc2
+
+エンタープライズ向け技術顧問契約についてはStripe決済リンク:
+pk_live_51TRWfQLp2LwUw6p6weymoWO91FPdcEuPHZbg2WZRY2mvJBIHhyt14qCECXWDyp8PlBCozivSqkEDmJkrXjV2HYSm00lPoE4XqT

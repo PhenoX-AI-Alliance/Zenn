@@ -1,0 +1,8 @@
+---
+title: "DDD判断フローを自動化するSaaSの構築"
+emoji: "🚀"
+type: "tech"
+topics: ["DDD", "Stripe", "React"]
+published: true
+---
+DDDの設計判断を属人化させないためのフローアプリを構築しました。Stripe決済を統合し、チームの意思決定を標準化します。

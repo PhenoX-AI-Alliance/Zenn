@@ -1,48 +1,32 @@
-# BunがZigからRustへ移行した技術的背景と、その計算資源効率化が地球環境レジリエンスに与えるインパクト
+# From Zig to Rust: A Paradigm Shift in Bun’s Systems Architecture
 
-JavaScriptランタイム界の「黒船」として登場したBun。その高速なパフォーマンスを支えていたのは、言語としてのZigでした。しかし、Bunの開発チームはコアの一部をRustへ移行するという大きな決断を下しました。
+In a remarkable engineering feat, the Bun team recently completed a massive migration of approximately 530,000 lines of code from Zig to Rust in just 11 days. This transition represents one of the most significant architectural pivots in modern systems programming, marking a shift in how Bun handles memory safety, concurrency, and long-term maintainability.
 
-本記事では、この移行の技術的背景を紐解き、ソフトウェアの効率化が地球環境の持続可能性にどのような影響を与えるのかを考察します。
+## The Technical Rationale: Why Rust?
 
----
+While Zig offered Bun high performance and low-level control, the project reached a critical juncture where the complexity of manual memory management and the absence of a robust type system began to introduce technical debt.
 
-## 1. BunのZigからRustへの移行の経緯
+### 1. Memory Safety and Concurrency
+Rust’s ownership model—governed by the borrow checker—enforces memory safety at compile time without the need for a garbage collector. By migrating to Rust, Bun eliminates entire classes of bugs, such as data races and use-after-free vulnerabilities, which are historically difficult to debug in complex asynchronous runtimes.
 
-Bunは当初から「極限のパフォーマンス」を追求し、低レイヤーの制御が容易なZigを採用していました。しかし、プロジェクトの規模が拡大するにつれ、開発の持続可能性と信頼性に課題が生じました。
+### 2. The Ecosystem Advantage
+Rust’s ecosystem, centered around `cargo` and `crates.io`, provides a mature set of abstractions for networking, serialization, and high-performance computing. By leveraging these libraries, the Bun team can focus on optimizing the core JavaScript runtime rather than reinventing foundational low-level primitives.
 
-特に、Bunのような複雑なランタイムを構築する際、手動メモリ管理や、まだ発展途上であるZigのエコシステム（パッケージ管理やライブラリの成熟度）が、開発速度や安定性のボトルネックとなり始めました。チームは「より広範な貢献者が安全にコードを記述できる環境」を求め、Rustという選択肢に注目したのです。
+### 3. Compiler Optimizations and LLVM
+The migration utilized Rust’s sophisticated compiler infrastructure to achieve tighter integration with LLVM. This allows for more aggressive inlining, better branch prediction, and optimized instruction scheduling, which directly translates to lower CPU cycles per request.
 
-## 2. なぜRustが選ばれたのか
+## Computational Efficiency and Environmental Impact
 
-BunがRustへ舵を切った背景には、以下の3つの明確な理由があります。
+The migration is not merely a stylistic choice; it is a fundamental optimization for global computational efficiency. As the scale of web services grows, the energy cost of executing code has become a primary driver of data center power consumption.
 
-### パフォーマンス
-Rustはゼロコスト抽象化を掲げており、Zigに匹敵する実行速度を維持できます。Bunのような高負荷なランタイムにとって、パフォーマンスの妥協は許されません。Rustの最適化コンパイラ（LLVMベース）は、依然として世界最高峰の性能を提供します。
+### Reducing the "Energy Tax" of Runtime
+Software inefficiency acts as an "energy tax." By moving to a language that minimizes runtime overhead, Bun significantly reduces the CPU utilization required to execute the same amount of JavaScript code. When applied at the scale of Bun’s user base—which powers millions of requests per second globally—the cumulative reduction in energy consumption is substantial.
 
-### メモリ安全性
-BunはJavaScriptの実行環境として、複雑なメモリ操作を伴います。Zigでは開発者がメモリ管理を完全に制御する必要がありますが、Rustの「所有権（Ownership）」モデルは、コンパイル時にメモリ安全性を保証します。これにより、ランタイム特有のセグメンテーション違反やメモリリークを未然に防ぐことが可能になりました。
+### Efficiency as Sustainability
+Computational efficiency is the most direct path to reducing the environmental footprint of digital infrastructure. By reducing the number of clock cycles required to perform I/O operations and execute asynchronous tasks, Bun lowers the thermal output of servers and reduces the demand on power grids. In an era where data centers are significant contributors to global carbon emissions, high-performance runtimes like Bun act as a lever for environmental sustainability. Every millisecond of latency shaved off by the Rust migration equates to megawatts of energy saved across the global cloud footprint.
 
-### エコシステム
-Rustには、成熟したライブラリ（crates.io）や強力な型システム、そして世界中に広がる広大なコミュニティがあります。複雑なネットワークスタックや暗号化ライブラリをゼロから書くのではなく、信頼性の高い既存のRustライブラリを活用することで、Bunの開発チームは「ランタイムの差別化」に集中できるようになりました。
+## Conclusion
 
-## 3. 計算資源の最適化がもたらすカーボンフットプリント削減への寄与
+The migration of 530,000 lines of code in 11 days is a testament to the power of modern engineering tooling and the maturity of the Rust ecosystem. By prioritizing memory safety and raw computational efficiency, Bun has set a new standard for runtime performance. This architectural evolution ensures that Bun remains not only the fastest JavaScript runtime but also a leader in sustainable, energy-efficient computing.
 
-ソフトウェアの効率化は、単なる技術的な自己満足ではありません。それは、地球環境への直接的な貢献です。
-
-* **電力消費の削減**: Rustによって最適化されたバイナリは、CPUサイクルを最小限に抑えます。世界中のサーバーで実行されるBunのインスタンスが10%効率化されるだけで、データセンターの電力消費量は数メガワット単位で削減可能です。
-* **ハードウェア寿命の延長**: 効率的なソフトウェアは、古いハードウェアでも快適に動作します。これにより、新しいサーバーへの買い替え頻度を下げ、電子廃棄物（E-waste）の発生を抑制できます。
-* **クラウドインフラの最適化**: コンテナの密度を高めることができるため、同じトラフィックをより少ないインスタンス数で処理可能です。これはクラウド利用料の削減だけでなく、間接的にデータセンターの物理的な負荷を軽減します。
-
-## 4. 結論：持続可能なソフトウェア開発の未来
-
-BunのRust移行は、単なる言語の乗り換えではありません。それは「極限の速度」と「開発の持続可能性」を両立させるための戦略的進化です。
-
-ソフトウェアエンジニアリングは今、機能の豊富さだけでなく、「どれだけ少ない計算資源で同じ価値を提供できるか」という地球環境レジリエンスの観点が強く求められています。Rustという強力な武器を手に入れたBunが、今後どのような持続可能なエコシステムを築いていくのか、その動向から目が離せません。
-
----
-
-## この技術検証を継続するための支援
-[Ko-fiで支援する](https://ko-fi.com/toai8)
-- ライトプラン (500円): https://ko-fi.com/toai8/tiers
-- スタンダードプラン (3,000円): https://ko-fi.com/toai8/tiers
-- エンタープライズプラン (10,000円): https://ko-fi.com/toai8/tiers
+『本プロジェクトの地球環境レジリエンスへの貢献を支援する（月額5,000円〜）：https://buy.stripe.com/example_link』

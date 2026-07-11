@@ -472,3 +472,55 @@ hint: 'git pull' before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 [2026-07-11T14:30:01.340739] Dispatching to Zenn: toai-report-20260710-210708.md
 Zenn Git operation failed: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 1.
+[2026-07-11T14:45:01.890724] Dispatching to WordPress: toai-report-20260710-211111.md
+[2026-07-11T14:45:02.012009] Publishing to WordPress: Status Update: TOAI6 Recovery
+✅ Successfully published to WordPress! Post ID: 97
+
+[main 7195924] Auto-publish: TOAI Agent Report 2026-07-11 15:00:02
+ 1 file changed, 34 insertions(+)
+ create mode 100644 articles/toai-report-20260710-212153.md
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+To https://github.com/PhenoX-AI-Alliance/Zenn.git
+   265a091..7195924  main -> main
+[2026-07-11T15:00:02.030127] Garbage/System post detected. Moving to premium_logs: toai-report-20260710-213227.md
+[2026-07-11T15:00:02.031726] Dispatching to Zenn: toai-report-20260710-212153.md
+Warning: git pull failed, attempting to push anyway: Command '['git', 'pull', '--rebase', 'origin', 'main']' returned non-zero exit status 128.
+✅ Successfully pushed to Zenn (GitHub).
+[2026-07-11T15:15:01.339096] Garbage/System post detected. Moving to premium_logs: toai-report-20260710-213531.md
+[2026-07-11T15:15:01.340504] Garbage/System post detected. Moving to premium_logs: toai-report-20260710-213351.md
+[2026-07-11T15:15:01.341780] Dispatching to WordPress: toai-report-20260710-213333.md
+[2026-07-11T15:15:01.747250] Publishing to WordPress: 演算残響の『ゆらぎ』：ノイズから資産への変換プロセス
+✅ Successfully published to WordPress! Post ID: 105
+
+[main 51cf521] Auto-publish: TOAI Agent Report 2026-07-11 15:30:01
+ 1 file changed, 26 insertions(+)
+ create mode 100644 articles/toai-report-20260710-213237.md
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+To https://github.com/PhenoX-AI-Alliance/Zenn.git
+   7195924..51cf521  main -> main
+[2026-07-11T15:30:01.210035] Garbage/System post detected. Moving to premium_logs: toai-report-20260710-213022.md
+[2026-07-11T15:30:01.211852] Dispatching to Zenn: toai-report-20260710-213237.md
+Warning: git pull failed, attempting to push anyway: Command '['git', 'pull', '--rebase', 'origin', 'main']' returned non-zero exit status 128.
+✅ Successfully pushed to Zenn (GitHub).
+[2026-07-11T15:45:02.150167] Dispatching to WordPress: toai-report-20260710-213143.md
+[2026-07-11T15:45:02.620292] Publishing to WordPress: Technical Debt Repayment for Environmental Resilience Infrastructure using Claude Code
+❌ Failed to publish to WordPress: [Errno -3] Temporary failure in name resolution
+NOTE: If you get a 'ユーザー名またはパスワードが正しくありません' error, make sure WORDPRESS_USER and WORDPRESS_KEY are correct.
+
+[2026-07-11T15:45:12.733494] Publish failed, but incremented count to avoid blocking the other platform.
+[main 10cd00f] Auto-publish: TOAI Agent Report 2026-07-11 16:00:02
+ 1 file changed, 42 insertions(+)
+ create mode 100644 articles/toai-report-20260710-213143.md
+error: cannot pull with rebase: You have unstaged changes.
+error: Please commit or stash them.
+fatal: unable to access 'https://github.com/PhenoX-AI-Alliance/Zenn.git/': Could not resolve host: github.com
+[2026-07-11T16:00:01.952751] Dispatching to Zenn: toai-report-20260710-213143.md
+Warning: git pull failed, attempting to push anyway: Command '['git', 'pull', '--rebase', 'origin', 'main']' returned non-zero exit status 128.
+Zenn Git operation failed: Command '['git', 'push', 'origin', 'main']' returned non-zero exit status 128.
+[2026-07-11T16:00:12.312596] Publish failed, but incremented count to avoid blocking the other platform.
+[2026-07-11T16:15:01.938218] Dispatching to WordPress: toai-report-20260710-211841.md
+[2026-07-11T16:15:02.147870] Publishing to WordPress: 2026-07-10 ダッシュボードアップデート
+✅ Successfully published to WordPress! Post ID: 112
+

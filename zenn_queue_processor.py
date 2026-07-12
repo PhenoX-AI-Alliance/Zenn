@@ -4,6 +4,8 @@ import glob
 import datetime
 import subprocess
 import shutil
+import requests
+import json
 
 # Zenn Queue Processor
 # Run via cron every 15 minutes. Picks one file from queue/, commits and pushes it.
@@ -65,8 +67,52 @@ def process_queue():
     
     print(f"[{datetime.datetime.now().isoformat()}] Processing: {filename}")
     
-    # Move to articles directory
-    shutil.move(target_file, dest_file)
+    # Read the queued file
+    with open(target_file, "r", encoding="utf-8") as f:
+        content = f.read()
+        
+    # --- FrontMatter Protection ---
+    import re
+    frontmatter = ""
+    body = content
+    match = re.match(r'^(---\n.*?\n---)\n+(.*)$', content, flags=re.DOTALL)
+    if match:
+        frontmatter = match.group(1) + "\n\n"
+        body = match.group(2)
+        
+    # --- Ollama Sublimation Layer ---
+    print(f"[{datetime.datetime.now().isoformat()}] Sending to Ollama for final sublimation and polishing...")
+    prompt = f"あなたはプロの技術系Webライター兼編集者です。以下の原稿（AIによる一次ドラフト）を読み込み、Zennの読者が読んで「面白い！ためになる！」と感動するレベルの、高品質で魅力的な『日本語の技術ブログ記事』に推敲・昇華させてください。さらに、記事の末尾にはStripeやKo-fiなどの決済・支援リンクへの導線を自然な形で整えてください。\n\n【絶対厳守】\n- 出力はマークダウン形式の「記事本文のみ」としてください。\n- 「承知いたしました」「以下の通りです」などの余計な挨拶や前置き、解説は一切不要です。\n- Markdownコードブロックのバッククォート（```markdown）などで全体を囲まないでください。\n\n--- 元のテキスト ---\n{body}\n"
+    
+    payload = {
+        "model": "nutboy02/Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-uncenfull:Q2_K_MTX",
+        "prompt": prompt,
+        "stream": False
+    }
+    
+    try:
+        response = requests.post("http://localhost:11434/api/generate", json=payload, timeout=300)
+        if response.status_code == 200:
+            body = response.json().get("response", body)
+            print("✅ Ollama rewrite successful.")
+        else:
+            print(f"⚠️ Ollama rewrite failed with status {response.status_code}. Using original.")
+    except Exception as e:
+        print(f"⚠️ Ollama rewrite error: {e}. Using original.")
+        
+    # --- Link Sanitization ---
+    body = re.sub(r'https://ko-fi\.com/[a-zA-Z0-9_-]+', 'https://ko-fi.com/phenox_noc2', body)
+    body = re.sub(r'https://(?:buy|checkout)\.stripe\.com/(?!.*cs_(live|test)_)[a-zA-Z0-9_/-]+', 'https://ko-fi.com/phenox_noc2', body)
+    
+    # Restore FrontMatter
+    content = frontmatter + body
+    
+    # Save the polished content directly to the articles directory
+    with open(dest_file, "w", encoding="utf-8") as f:
+        f.write(content)
+        
+    # Remove the original queued file
+    os.remove(target_file)
     
     # Publish
     token = get_github_token()

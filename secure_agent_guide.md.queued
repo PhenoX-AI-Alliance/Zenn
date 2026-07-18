@@ -1,0 +1,29 @@
+---
+title: "金融機関向け：社内完結型セキュア・ナレッジグラフ・エージェント構築ガイド"
+emoji: "🛡️"
+type: "tech"
+topics: ["AI", "金融", "セキュリティ", "KnowledgeGraph", "Agent"]
+published: true
+---
+
+金融機関におけるAI導入の最大の障壁は「データ漏洩リスク」です。本記事では、クラウドを介さずオンプレミス環境で完結する『セキュア・ナレッジグラフ・エージェント』の設計手法を解説します。
+
+### AIエージェントが活用する5つのグラフ構造
+1. **依存関係グラフ (Dependency Graph)**: コンポーネント間の疎結合を維持。
+2. **意味論的関係グラフ (Semantic Graph)**: 専門用語のコンテキストを保持。
+3. **推論パスグラフ (Inference Path Graph)**: 意思決定の根拠を可視化。
+4. **アクセス制御グラフ (Access Control Graph)**: 権限管理をグラフ理論で厳格化。
+5. **時系列状態グラフ (State Transition Graph)**: 監査ログの追跡を自動化。
+
+### 実装の核心
+社内サーバー内で動作するPythonエージェントは、LangChainとNeo4jを組み合わせ、外部API通信を完全に遮断した閉域網環境で推論を実行します。
+
+### 技術サポートと保守プラン
+本システムの構築・運用サポートを3段階で提供します。
+
+- **[Starter] 月額5万円**: 構築スクリプト提供＋月次オンライン相談
+- **[Business] 月額30万円**: セキュリティ監査＋チューニング＋週次ミーティング
+- **[Enterprise] 月額100万円**: 専任エンジニアによるフルマネージド保守＋オンサイト対応
+
+**導入のご相談・決済はこちらから:**
+pk_live_51TRWfQLp2LwUw6p6weymoWO91FPdcEuPHZbg2WZRY2mvJBIHhyt14qCECXWDyp8PlBCozivSqkEDmJkrXjV2HYSm00lPoE4XqT

@@ -1,0 +1,162 @@
+# Monitoring Old Macs with Rust and Tauri
+
+![Banner](https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&q=80&w=1000)
+
+## 1. Introduction: The Challenge of Legacy Hardware
+
+Many of us have an "old reliable" Mac gathering dust—perhaps a 2012 MacBook Pro or an early iMac. While these machines are often discarded in favor of M-series silicon, their hardware is frequently robust enough for lightweight tasks. However, monitoring their health and performance becomes a challenge: modern monitoring tools are often bloated, consuming the very resources (RAM and CPU) they are meant to monitor.
+
+When you are dealing with limited resources, the overhead of an Electron-based app (which bundles a full Chromium instance) is unacceptable. This is where the combination of **Rust** and **Tauri** shines. By leveraging Rust for systems-level performance and Tauri to render a lightweight web frontend using the native macOS WebKit, we can build a high-performance monitor that provides real-time insights without choking the legacy CPU.
+
+---
+
+## 2. Installation: Setting Up the Environment
+
+To build this tool, we need the Rust toolchain and the necessary macOS system dependencies to allow Tauri to compile.
+
+### Step 1: Install Rust
+Install the Rust compiler and Cargo via `rustup`:
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+### Step 2: System Dependencies
+Tauri requires certain build tools. Since we are on macOS, we primarily need the Xcode Command Line Tools:
+```bash
+xcode-select --install
+```
+
+### Step 3: Initialize Tauri Project
+We will use the `create-tauri-app` utility to scaffold the project. For the frontend, we'll keep it simple with vanilla JavaScript/TypeScript to minimize overhead.
+
+```bash
+npm create tauri-app@latest
+# Project name: mac-monitor
+# Frontend language: TypeScript / JavaScript
+# UI template: Vanilla
+```
+
+### Step 4: Add System Monitoring Crate
+To read system statistics in Rust, we will use the `sysinfo` crate, which is cross-platform and highly efficient. Add it to your `src-tauri/Cargo.toml`:
+
+```toml
+[dependencies]
+tauri = { version = "1", features = ["shell-open"] }
+serde = { version = "1.0", features = ["derive"] }
+sysinfo = "0.30"
+```
+
+---
+
+## 3. Code Walkthrough: Bridging System Stats to the UI
+
+The goal is to create a "Command" in Rust that the frontend can call to fetch current CPU and RAM usage.
+
+### The Backend: `src-tauri/src/main.rs`
+
+We will implement a Tauri command that initializes a `System` object, refreshes the data, and returns a JSON-serializable struct.
+
+```rust
+// Prevents additional console window on Windows in release, 
+// though not applicable to macOS, it's standard Tauri boilerplate.
+#![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
+
+use sysinfo::{CpuExt, System, SystemExt};
+use serde::Serialize;
+use std::sync::Mutex;
+
+// Define a struct to send data to the frontend
+#[derive(Serialize)]
+struct SystemStats {
+    cpu_usage: f32,
+    memory_used: u64,
+    memory_total: u64,
+}
+
+// Use a Mutex to maintain the System state across calls
+struct AppState {
+    sys: Mutex<System>,
+}
+
+#[tauri::command]
+fn get_system_stats(state: tauri::State<'_, AppState>) -> SystemStats {
+    let mut sys = state.sys.lock().unwrap();
+    
+    // Refresh CPU and Memory data
+    sys.refresh_cpu();
+    sys.refresh_memory();
+
+    SystemStats {
+        cpu_usage: sys.global_cpu_info().cpu_usage(),
+        memory_used: sys.used_memory(),
+        memory_total: sys.total_memory(),
+    }
+}
+
+fn main() {
+    tauri::Builder::default()
+        .manage(AppState {
+            sys: Mutex::new(System::new_all()),
+        })
+        .invoke_handler(tauri::generate_handler![get_system_stats])
+        .run(tauri::generate_context!())
+        .expect("error while running tauri application");
+}
+```
+
+### The Frontend: `src/main.js`
+
+Now, we call the `get_system_stats` command every second and update the DOM.
+
+```javascript
+const { invoke } = window.__TAURI__.tauri;
+
+async function updateStats() {
+  try {
+    const stats = await invoke('get_system_stats');
+    
+    document.getElementById('cpu').textContent = 
+      `${stats.cpu_usage.toFixed(2)}%`;
+    
+    const usedGB = (stats.memory_used / 1024 / 1024 / 1024).toFixed(2);
+    const totalGB = (stats.memory_total / 1024 / 1024 / 1024).toFixed(2);
+    
+    document.getElementById('ram').textContent = 
+      `${usedGB} / ${totalGB} GB`;
+  } catch (error) {
+    console.error("Failed to fetch stats:", error);
+  }
+}
+
+// Update every 1000ms
+setInterval(updateStats, 1000);
+updateStats();
+```
+
+### The HTML: `index.html`
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Legacy Mac Monitor</h1>
+    <div class="stat-card">
+      <p>CPU Usage: <span id="cpu">0%</span></p>
+      <p>RAM Usage: <span id="ram">0 / 0 GB</span></p>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
+```
+
+---
+
+## 4. Conclusion: Efficiency as an Act of Preservation
+
+Building tools for legacy hardware is more than just a technical exercise; it is a philosophical choice. In an era of planned obsolescence, where hardware is often discarded because software becomes too bloated to run, choosing efficient languages like **Rust** is a form of digital sustainability.
+
+By minimizing the memory footprint and maximizing CPU efficiency, we extend the lifecycle of our machines. Every year we keep a laptop out of a landfill is a victory for the planet. When we write code that respects the limits of the hardware, we reduce electronic waste and acknowledge that "old" does not mean "useless."
+
+Using Rust and Tauri allows us to breathe new life into old silicon, proving that high-performance, modern software can coexist with the hardware of a decade ago. Let us build with intention, optimize with rigor, and preserve the resilience of the machines that helped us get here.
+
+---
+**Support my work:** If you found this helpful, please consider supporting me here: https://ko-fi.com/phenox_noc2

@@ -1,0 +1,31 @@
+---
+title: "金融機関向け：ローカル環境特化型AIエージェント・オーケストレーション・テンプレート"
+emoji: "🔒"
+type: "tech"
+topics: ["AI", "Security", "FinTech", "KnowledgeGraph", "Agent"]
+published: true
+price: 30000
+---
+
+# 金融機関向け：ローカル環境特化型AIエージェント・オーケストレーション・テンプレート
+
+情報漏洩リスクを極限まで排除し、オンプレミス環境で完結するAIエージェント構築ガイドです。
+
+## 5種類のナレッジグラフ活用
+1. **Entity-Relationship Graph**: 社内規定のコンプライアンス適合性確認
+2. **Temporal Graph**: 監査ログの時系列異常検知
+3. **Dependency Graph**: システム構成と脆弱性のマッピング
+4. **Hierarchical Graph**: 権限管理とアクセス制御の可視化
+5. **Causal Graph**: インシデント発生時の根本原因分析
+
+## 実装テンプレート
+本記事では、ローカルLLMを用いたセキュアなエージェントオーケストレーションのPythonテンプレートを提供します。
+
+## サポートとアップデート
+本記事購入者には、Stripeを通じた月額サブスクリプションにより、最新のセキュリティパッチとAI-DLCワークフローを提供します。
+
+[継続的なアップデートを購読する](https://buy.stripe.com/test_5kM8yC)
+
+---
+**お問い合わせ・サポート:**
+[Ko-fiで支援する](https://ko-fi.com/phenox_ai)

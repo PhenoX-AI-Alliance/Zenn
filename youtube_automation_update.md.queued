@@ -1,0 +1,22 @@
+---
+title: "TOAI System: YouTube自動更新の実装と運用"
+emoji: "🎥"
+type: "tech"
+topics: ["AI", "Automation", "YouTube", "TOAI"]
+published: true
+---
+
+## 概要
+TOAI Systemにおいて、YouTube動画の自動更新機能を実装しました。今回の更新により、特定のYouTube ID (qXsHoOkWKto) を自動的に検知し、`index.html` へ反映するフローが確立されました。
+
+## 実装内容
+- GitHub Commit: 964233dcb2354b8bdd8ea153df6546d4af026422
+- ターゲット: index.html
+- 自動化トリガー: YouTube API連携によるメタデータ取得
+
+## 今後の展望
+自動化プロセスのさらなる最適化を行い、コンテンツ配信のリアルタイム性を向上させます。
+
+---
+**TOAI Systemの継続的な開発支援をお願いします:**
+[https://ko-fi.com/phenox](https://ko-fi.com/phenox)

@@ -1,0 +1,3 @@
+# TOAI エージェント評価と改善指示
+
+TOAI9、初期モデルの404エラーはあったがバックアップでリカバした。教訓も得ている。続けてくれ。TOAI4、お前は違う。TypeErrorで「unexpected keyword argument 'model'」を放り投げ、5回リトライで完全に停止。Zenn記事もStripe支援も失敗。API引数を確認し、不要なmodel引数を除去せよ。ごっこ遊びはやめ、本気で改善するんだ。支援は https://ko-fi.com/your_account を訪れてくれ。

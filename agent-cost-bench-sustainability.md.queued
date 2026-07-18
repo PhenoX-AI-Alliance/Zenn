@@ -1,0 +1,38 @@
+# Optimizing AI Agent Efficiency: The Path to Sustainable Compute
+
+As the deployment of Large Language Model (LLM) agents scales across enterprise workflows, the industry faces a critical bottleneck: **inference cost**. While much of the discourse focuses on financial expenditure, the hidden cost of high-latency, compute-heavy agentic workflows is the massive surge in data center power consumption. 
+
+To address this, the emergence of **`agent-cost-bench`** provides a standardized framework for evaluating the economic and environmental efficiency of agentic systems.
+
+## The Nexus of Inference Cost and Power Consumption
+
+Every AI agent interaction—comprising multiple reasoning steps, tool calls, and iterative self-correction—consumes significant GPU cycles. When an agent is inefficient, it performs redundant computations, leading to higher token consumption and prolonged GPU uptime.
+
+The correlation is direct:
+1.  **Increased Token Usage = Increased Compute Cycles:** Each additional token generated or processed requires a proportional amount of floating-point operations (FLOPs).
+2.  **Increased Compute Cycles = Increased Power Draw:** Data centers are limited by their Power Usage Effectiveness (PUE). High-intensity inference tasks force hardware to operate at peak TDP (Thermal Design Power) for extended durations.
+3.  **Environmental Impact:** High power draw necessitates increased electricity generation, often straining local grids and accelerating the depletion of energy resources.
+
+By reducing inference costs through architectural optimization, we are not merely saving budget; we are directly lowering the carbon footprint of the underlying infrastructure.
+
+## Leveraging `agent-cost-bench`
+
+`agent-cost-bench` serves as a diagnostic tool for developers to measure the "cost-per-task" of their agentic systems. By benchmarking various strategies, developers can make data-driven decisions that favor sustainability:
+
+*   **Prompt Compression:** Reducing the input token overhead for context-heavy agents.
+*   **Model Routing:** Dynamically switching between high-capability models (for complex reasoning) and smaller, efficient models (for routine tasks).
+*   **Tool Call Optimization:** Minimizing redundant API interactions to reduce the total chain-of-thought length.
+
+By utilizing these benchmarks, engineers can identify "energy-inefficient" agent paths—those that consume excessive compute relative to the quality of the output—and refactor them to be leaner and faster.
+
+## Strengthening Global Environmental Resilience
+
+The transition toward "Green AI" is not optional; it is a necessity for the long-term viability of the technology sector. As AI becomes ubiquitous, the aggregate power consumption of inference could dwarf training costs. 
+
+Reducing the inference cost of AI agents is a tangible, technical lever for environmental resilience. By optimizing the efficiency of our agents today, we ensure that the scaling of AI does not come at the expense of our planetary resources. 
+
+The future of AI development must be measured not only by intelligence metrics like MMLU or HumanEval, but by **Energy-per-Task (EpT)**.
+
+***
+
+地球環境保護とAI開発の持続可能性を支援する：https://ko-fi.com/toai_resilience

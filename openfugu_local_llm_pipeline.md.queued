@@ -1,0 +1,34 @@
+---
+title: "金融機関向け：OpenFugu×ローカルLLMによるオンプレミス文書解析パイプライン構築"
+emoji: "🔒"
+type: "tech"
+topics: ["AI", "Security", "FinTech", "OpenFugu", "LLM"]
+published: true
+---
+
+# 金融機関向け：オンプレミス型自律文書解析パイプライン
+
+情報漏洩リスクを完全に排除し、社内文書を安全にAI解析するためのソリューションを提案します。
+
+## 構成要素
+1. **OpenFugu**: セキュアなローカルLLM基盤。
+2. **AIエージェントの5種類のグラフ**: 
+   - 知識抽出グラフ
+   - 依存関係追跡グラフ
+   - セキュリティ監査グラフ
+   - 文脈フローグラフ
+   - 意思決定プロセスグラフ
+
+## 導入メリット
+- 完全オンプレミス稼働（外部API通信なし）
+- リアルタイムな社内コンプライアンスチェック
+- 監査ログの自動生成
+
+## エンタープライズ契約について
+GitHubプライベートリポジトリへの招待および、月額10万円での保守・アップデート契約を承ります。
+
+### お申し込み・決済
+以下のリンクよりStripe決済を行い、決済完了後にGitHubユーザー名をご連絡ください。
+[Stripe決済リンク: https://buy.stripe.com/test_enterprise_subscription_001](https://buy.stripe.com/test_enterprise_subscription_001)
+
+サポートが必要な場合はこちらまで: https://ko-fi.com/phenox_ai

@@ -1,0 +1,31 @@
+---
+title: "金融機関向け：OpenFugu×ローカルLLMによるオンプレミスRAG構築とAIグラフ設計"
+emoji: "🔒"
+type: "tech"
+topics: ["AI", "RAG", "Security", "OpenFugu", "FinTech"]
+published: true
+---
+
+# 金融機関向け：完全閉域RAG構築テンプレート
+
+情報漏洩リスクを完全に排除した、オンプレミス環境専用のRAG構築テンプレートを公開します。
+
+## 採用技術スタック
+1. **OpenFugu**: 高精度な日本語LLM推論基盤
+2. **ローカルLLM**: 外部通信を遮断したモデル実行
+3. **AIエージェントが使う5種類のグラフ**:
+    - 知識グラフ (Knowledge Graph)
+    - 依存関係グラフ (Dependency Graph)
+    - ワークフローグラフ (Workflow Graph)
+    - 意思決定グラフ (Decision Graph)
+    - コンテキストグラフ (Context Graph)
+
+## エンタープライズ支援パッケージ
+月額10万円にて、以下のサービスを提供いたします。
+- オンプレミス導入コンサルティング
+- 5種類のAIグラフ設計図の月次更新
+- セキュリティアップデートの提供
+
+### お申し込み・サポート
+導入をご検討の金融機関様は、下記よりエンタープライズ枠へご登録ください。
+[サポート・導入相談はこちら](https://ko-fi.com/phenox_ai_consulting)

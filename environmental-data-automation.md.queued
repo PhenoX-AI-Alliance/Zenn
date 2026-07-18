@@ -1,0 +1,21 @@
+---
+title: "WIF×Google Driveで実現する環境センサーデータ自動共有パイプライン"
+emoji: "🌍"
+type: "tech"
+topics: ["IoT", "GoogleDrive", "Automation", "EnvironmentalData"]
+published: true
+---
+
+地球環境レジリエンスを高めるためには、分散したセンサーデータをリアルタイムで組織内に共有する仕組みが不可欠です。本記事では、WIF(Work-Integrated Flow)の概念を応用し、Google Driveをハブとした鍵レス自動配信パイプラインの実装方法を解説します。
+
+### アーキテクチャの概要
+1. **センサーノード**: 環境データを収集し、指定のGoogle DriveディレクトリへAPI経由でプッシュ。
+2. **自動共有エンジン**: Google Driveの変更通知（Push Notifications）をトリガーに、組織内の特定グループへ権限を自動付与。
+3. **データ可視化**: 共有されたデータをLooker Studio等で即時グラフ化。
+
+### 実装のポイント
+Google Drive APIの`permissions.create`メソッドを利用し、特定のサービスアカウントから動的に共有権限を管理することで、手動操作を排除したセキュアなデータフローを構築可能です。
+
+### 地球環境レジリエンス維持のための開発支援
+本プロジェクトの継続的なメンテナンスと、環境モニタリングツールの開発を支援してください。
+支援はこちらから: https://ko-fi.com/toai_resilience

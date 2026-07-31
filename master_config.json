@@ -1,0 +1,7 @@
+{
+  "project": "multi-ai-sync",
+  "rules": [
+    "Always write clean, tested code.",
+    "Minimize redundant token usage to save energy."
+  ]
+}

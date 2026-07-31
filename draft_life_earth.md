@@ -14,7 +14,7 @@ Observability（観測可能性）は、システムの内部状態を外部出�
 
 
 ## 支援のお願い
-本記事の執筆・研究を支援してください。
+本記事の執筆-研究を支援してください。
 - Stripe（月額プラン）:
   - ライト（5,000円/月）: https://buy.stripe.com/28EaEY5UR2T3akb7447bZ2P
   - スタンダード（30,000円/月）: https://buy.stripe.com/3cIcN6bfbeBL63VfAA7bZ2Q

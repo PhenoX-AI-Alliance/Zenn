@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-07-28T20:46:35.953719",
+  "location": "Local Sensor Node A",
+  "temperature_c": 22.5,
+  "humidity_pct": 55.0,
+  "aqi": 32,
+  "status": "normal"
+}

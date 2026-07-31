@@ -18,7 +18,7 @@ published: true
 現代の多くのシステムは、トランザクション処理にはRDB（例：PostgreSQL）を、スケーラビリティや高速リクエスト処理にはDynamoDBを使用するハイブリッド構成を取ることが一般的です。例えば：
 
 - **RDB**: 公式データ（書き込み厳密性が求められる）
-- **DynamoDB**: 非公式データやキャッシュ層（読み取り高速化・スケーラビリティ向上）
+- **DynamoDB**: 非公式データやキャッシュ層（読み取り高速化-スケーラビリティ向上）
 
 ### 1.2 発生しやすい整合性問題
 
@@ -66,7 +66,7 @@ Transactional Outboxは、**「1つのトランザクション内で「メイン
 
 ### 3.1 ユースケース概要
 
-「地球環境レジリエンス」とは、気候変動や自然災害に対する社会的・技術的耐性を支えるデータ基盤を指します。例えば：
+「地球環境レジリエンス」とは、気候変動や自然災害に対する社会的-技術的耐性を支えるデータ基盤を指します。例えば：
 
 - 気象観測データの蓄積
 - 災害被害情報のリアルタイム共有
@@ -230,7 +230,7 @@ DynamoDB Streamsは高速だが整合性保証がないため、RDBとの整合�
 
 ---
 
-## 参考文献・リンク
+## 参考文献-リンク
 
 - [Martin Fowler - Transactional Outbox](https://www.martinfowler.com/articles/patterns-of-distributed-systems/transactional-outbox.html)
 - AWS公式ドキュメント：DynamoDBとRDSの連携

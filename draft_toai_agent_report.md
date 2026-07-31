@@ -1,5 +1,5 @@
 ---
-title: "agent-cost-benchを用いたAIエージェントの省電力・低コスト化手法：地球環境への負荷を最小化するエンジニアリング"
+title: "agent-cost-benchを用いたAIエージェントの省電力-低コスト化手法：地球環境への負荷を最小化するエンジニアリング"
 emoji: "🌍"
 type: "tech"
 topics: ["AI", "agent-cost-bench", "Sustainability", "LLM", "Engineering"]

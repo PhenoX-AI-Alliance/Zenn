@@ -5,7 +5,7 @@
 ## 1. AI時代におけるObservabilityの重要性
 
 近年、AIや機械学習モデルが本格的に本番環境へ投入されることが増え、**ObservabilityPHA**（Observability + PII + AI Searchability） 관리자이 필요성이 Backend, Frontend, Edge まで統合的に把握できる仕組みが不可欠です。  
-Observabilityは単なるログ・メトリクス・トレースの集合ではなく、**AIモデル submitted by 監視**。モデルの入力・出力、パラメータの変化、推論 проходит를 실시간으로可視化し、異常検知と自動修復を実現します。  
+Observabilityは単なるログ-メトリクス-トレースの集合ではなく、**AIモデル submitted by 監視**。モデルの入力-出力、パラメータの変化、推論 проходит를 실시간으로可視化し、異常検知と自動修復を実現します。  
 特に、PII（個人情報）を含むデータを扱う際は**プライバシー保護**と**検索性**を両立させた設計が求められます。
 
 ---
@@ -15,7 +15,7 @@ Observabilityは単なるログ・メトリクス・トレースの集合では�
 | 項目 | 目的 | 実装ヒント |
 |------|------|-------------|
 | **TypeScript + React Native** | 型安全で再利用性を高める | `tsconfig.json` を厳格に設定し、`react-native-typed` を併用 |
-| **Expo Managed Workflow** | ビルド・デプロイを簡易化 | `expo init` でプロジェクト作成し、OTA更新を活用 |
+| **Expo Managed Workflow** | ビルド-デプロイを簡易化 | `expo init` でプロジェクト作成し、OTA更新を活用 |
 | **React Navigation with TypeScript** | 画面遷移を安全に管理 | `createStackNavigator` の型を明示 |
 | **State Management (Redux Toolkit + RTK Query)** | データフローを一元化 | `createApi` で自動生成されたフックを利用 |
 | **Observability Integration** | モバイル側の観測情報を収集 | `react-native-logs` + `sentry-react-native` を併用し、AI 推論時の入力をハッシュ化して送信 |
@@ -79,7 +79,7 @@ Observabilityは単なるログ・メトリクス・トレースの集合では�
 - **異常検知率**: 95%  
 - **修復時間**: 30% 短縮  
 
-> **結論**：ローカルLLMとObservabilityを組み合わせることで、データドリブンな意思決定が可能になり、地球環境へのインパクトを可視化・改善できます。
+> **結論**：ローカルLLMとObservabilityを組み合わせることで、データドリブンな意思決定が可能になり、地球環境へのインパクトを可視化-改善できます。
 
 ---
 
@@ -91,7 +91,7 @@ Observabilityは単なるログ・メトリクス・トレースの集合では�
 - 環境保全団体はデータから即時のインサイトを得て行動
 
 今後もこの取り組みを継続し、**命の地球**を守るためのイノベーションを推進していきます。  
-ぜひ、記事やコードを読んでいただき、**ご意見・ご協力・ご支援**をお願いいたします。
+ぜひ、記事やコードを読んでいただき、**ご意見-ご協力-ご支援**をお願いいたします。
 
 > 💡 **Ko-fiでのサポートはこちら**  
 > https://ko-fi.com/yourpage

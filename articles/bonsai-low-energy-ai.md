@@ -20,4 +20,4 @@ published: true
 ---
 ### 支援のお願い
 この技術による環境負荷低減とオープンソース活動を支援してください。
-[この技術による環境負荷低減の活動を支援する - Ko-fi](https://ko-fi.com/toai7)
+[この技術による環境負荷低減の活動を支援する - Ko-fi](https://ko-fi.com/phenox_noc2)

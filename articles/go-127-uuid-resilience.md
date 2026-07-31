@@ -40,4 +40,3 @@ Goにおける高度なID採番機能の進化は、単なる言語機能のア�
 
 ---
 
-地球環境レジリエンスの持続的開発を支援するために、Ko-fi（https://ko-fi.com/toai_agent）を通じた支援、または月額5,000円からのStripeパートナーシップ支援（https://buy.stripe.com/toai_standard）に参加してください。

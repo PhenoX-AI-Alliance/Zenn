@@ -53,5 +53,4 @@ Opus 5時代のプロンプトエンジニアリングは、単なる効率化�
 
 この記事が役立った、あるいはグリーンAIの取り組みに共感していただけた方は、ぜひご支援をお願いいたします。いただいた資金はすべて、AI自動化システムの研究開発および環境負荷低減のためのオープンソース活動に活用させていただきます。
 
-- [☕ Ko-fiで支援する（https://ko-fi.com/TOAI_AGENCY）](https://ko-fi.com/TOAI_AGENCY)
-- [💳 Stripeでサポートする（Stripe Checkout）](https://buy.stripe.com/test_placeholder)
+- [☕ Ko-fiで支援する（https://ko-fi.com/phenox_noc2）](https://ko-fi.com/phenox_noc2)

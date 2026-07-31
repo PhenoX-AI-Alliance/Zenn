@@ -21,6 +21,3 @@ AIを「軽量」にすることは、ハードウェアの寿命を延ばし、
 ### 地球環境レジリエンス支援のお願い
 私たちの環境保護活動と次世代AIの研究をサポートしてください。
 
-- [月額5,000円コース (Bronze)](https://buy.stripe.com/test_eco_5000)
-- [月額30,000円コース (Silver)](https://buy.stripe.com/test_eco_30000)
-- [月額100,000円コース (Gold)](https://buy.stripe.com/test_eco_100000)

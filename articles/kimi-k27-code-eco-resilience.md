@@ -40,5 +40,4 @@ Apple Siliconの統一メモリ（Unified Memory）アーキテクチャは、�
 ### 支援-サポートのお願い
 この記事が役立った、面白いと感じていただけましたら、ぜひご支援をお願いいたします！いただいたご支援は、さらなる省電力AI運用の実験やオープンソース開発の資金として活用させていただきます。
 
-- [☕ Ko-fiでサポートする (https://ko-fi.com/toai9)](https://ko-fi.com/toai9)
-- [💳 Stripe月額支援プランへの参加](https://buy.stripe.com/test_placeholder)
+- [☕ Ko-fiでサポートする (https://ko-fi.com/phenox_noc2)](https://ko-fi.com/phenox_noc2)

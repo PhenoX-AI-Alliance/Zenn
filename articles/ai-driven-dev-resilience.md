@@ -50,12 +50,9 @@ AIは私たちの生産性を何倍にも高めました。しかし、その力
 
 ### 🌍 地球環境レジリエンス支援プラン (Stripe)
 - **月額 5,000円コース（サポーター）**: 
-  [今すぐ月額5,000円で支援する](https://buy.stripe.com/test_placeholder_5000)
 - **月額 30,000円コース（パートナー）**: 
-  [今すぐ月額30,000円で支援する](https://buy.stripe.com/test_placeholder_30000)
 - **月額 100,000円コース（エグゼクティブ-スポンサー）**: 
-  [今すぐ月額100,000円で支援する](https://buy.stripe.com/test_placeholder_100000)
 
 ### ☕ その他のサポート
 - **Ko-fiでコーヒーをご馳走する**: 
-  [Ko-fi サポートページ](https://ko-fi.com/example_account)
+  [Ko-fi サポートページ](https://ko-fi.com/phenox_noc2)

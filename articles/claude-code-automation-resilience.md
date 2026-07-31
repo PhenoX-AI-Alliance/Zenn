@@ -24,4 +24,4 @@ published: true
 
 ## 支援のお願い
 本プロジェクトの継続的な開発と環境負荷低減のための研究にご協力ください。
-[GitHub Sponsor/Ko-fi支援リンク](https://ko-fi.com/toai7)
+[GitHub Sponsor/Ko-fi支援リンク](https://ko-fi.com/phenox_noc2)

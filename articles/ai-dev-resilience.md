@@ -49,5 +49,4 @@ Linear、Claude Code、GitHubを組み合わせたモダンな開発フローは
 ### 地球環境レジリエンス-サポート
 本記事および持続可能な開発エコシステムの普及活動にご賛同いただける方は、ぜひ温かいご支援をお願いいたします。
 
-- **地球環境レジリエンス-サポート（月額5,000円〜）**: [Stripe決済リンク](https://buy.stripe.com/example_resilience)
-- **Ko-fiでコーヒーをごちそうする**: [Ko-fi支援リンク](https://ko-fi.com/example)
+- **Ko-fiでコーヒーをごちそうする**: [Ko-fi支援リンク](https://ko-fi.com/phenox_noc2)

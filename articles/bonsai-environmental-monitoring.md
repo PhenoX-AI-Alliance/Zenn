@@ -97,4 +97,4 @@ Bonsaiは、1-bit LLMの技術を衛星画像解析に応用することで、�
 
 ### 地球環境レジリエンス研究への支援をお願いします
 私たちの活動を継続するために、ご支援をお願いいたします。
-[Ko-fiで支援する](https://ko-fi.com/toai_resilience)
+[Ko-fiで支援する](https://ko-fi.com/phenox_noc2)

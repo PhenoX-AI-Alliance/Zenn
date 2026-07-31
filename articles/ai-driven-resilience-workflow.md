@@ -45,8 +45,7 @@ AI駆動型ワークフローは、無駄な電力消費や非効率なインフ
 この活動に共感し、さらなる開発の加速と地球環境レジリエンスの向上を支援したいと思っていただける方は、ぜひご支援をお願いいたします！
 
 - ☕ **Ko-fiでコーヒーをご馳走する（開発支援）**: 
-  [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
+  [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
 - 💳 **Stripe月額サポートプラン（継続的なプロジェクト支援）**: 
-  [https://buy.stripe.com/test_placeholder_resilience](https://ko-fi.com/toai_agent)
 
 皆様のサポートが、AIと地球の未来を切り拓く原動力になります。応援よろしくお願いいたします！

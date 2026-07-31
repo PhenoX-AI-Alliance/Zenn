@@ -57,4 +57,3 @@ Opus 5におけるプロンプト最適化は、AIエンジニアリングの効
 
 ---
 
-地球環境レジリエンスを支えるAI開発継続のため、Ko-fi支援（ https://ko-fi.com/toai9 ）またはStripe月額サポート（ https://buy.stripe.com/toai9_resilience ）へのご参加をお願いします。

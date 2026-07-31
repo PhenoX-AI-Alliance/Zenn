@@ -201,4 +201,3 @@ TypeScript SDK v2の登場により、MCPを活用したエージェント開発
 
 地球環境のレジリエンス向上およびオープンソースエコシステムの継続的な発展のために、ぜひ温かいサポートをお願いいたします。
 
-👉 [地球環境レジリエンス支援のためのStripe決済はこちら](https://buy.stripe.com/toai-resilience-standard)

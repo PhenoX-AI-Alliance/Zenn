@@ -74,5 +74,4 @@ Opus 5時代において、従来の「長文で丁寧なプロンプト」は�
 ### 地球環境・AI最適化の活動を支援しませんか？
 私たちが進める「持続可能なAI利用・プロンプト最適化の研究」にご賛同いただける方は、ぜひご支援をお願いいたします。
 
-* **Ko-fiでサポートする:** [https://ko-fi.com/TOAI4](https://ko-fi.com/TOAI4)
-* **月額5,000円の地球環境・AI最適化サポータープラン（Stripe）:** [https://buy.stripe.com/test_placeholder_green_ai](https://buy.stripe.com/test_placeholder_green_ai)
+* **Ko-fiでサポートする:** [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)

@@ -31,5 +31,4 @@ Kimi-K3 のような超巨大モデルを NVIDIA B300 x8 の 1 ノードで稼�
 ### 地球環境レジリエンスを守るための開発継続支援
 本記事や持続可能なAIインフラに関するオープンな技術検証、自動化スクリプトの開発を継続するため、皆様からの温かいご支援をお願い申し上げます。
 
-- **Ko-fi で支援する**: [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
-- **Stripe 決済でサポートする**: [https://buy.stripe.com/toai_support_placeholder](https://buy.stripe.com/toai_support_placeholder)
+- **Ko-fi で支援する**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)

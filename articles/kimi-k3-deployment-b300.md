@@ -59,8 +59,5 @@ NVIDIA B300 x8 は、2.8Tクラスの超巨大モデルを1ノードで運用す
 
 本記事の検証データや構築スクリプトが役立った方は、ぜひご支援をお願いいたします。いただいた資金はすべて、次世代ハードウェアの調達およびオープンソースAIインフラの研究費用に充てさせていただきます。
 
-- **Ko-fi（投げ銭・サポート）**: [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
+- **Ko-fi（投げ銭・サポート）**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
 - **Stripe 月額サポートプラン**:
-  - [ライトプラン（5,000円/月）](https://buy.stripe.com/test_light_plan_placeholder)
-  - [スタンダードプラン（30,000円/月）](https://buy.stripe.com/test_standard_plan_placeholder)
-  - [エンタープライズプラン（100,000円/月）](https://buy.stripe.com/test_enterprise_plan_placeholder)

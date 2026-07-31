@@ -23,4 +23,4 @@ AI技術の進化は、環境負荷とのトレードオフであってはなり
 
 ---
 地球環境レジリエンスへの貢献として、本技術の維持-開発支援はこちら
-[https://ko-fi.com/toai_resilience](https://ko-fi.com/toai_resilience)
+[https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)

@@ -25,4 +25,4 @@ published: true
 ---
 ### 地球環境負荷削減のための研究開発支援
 本プロジェクトの知見はすべてオープンソースとして公開しています。持続可能なAI開発のための研究支援をお願いいたします。
-サポートはこちら: https://ko-fi.com/toai_resilience
+サポートはこちら: https://ko-fi.com/phenox_noc2

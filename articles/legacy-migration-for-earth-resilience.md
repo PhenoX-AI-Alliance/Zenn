@@ -21,4 +21,4 @@ Claude Codeを用いることで、コードベースの解析からリファク
 - アドバンスプラン: 月額 30,000円
 - エンタープライズプラン: 月額 100,000円
 
-[支援はこちらから (Ko-fi)](https://ko-fi.com/phenox_dev)
+[支援はこちらから (Ko-fi)](https://ko-fi.com/phenox_noc2)

@@ -36,7 +36,6 @@ AIによる効率化の本質は、単なるスピードの追求ではなく、
 
 本記事や私たちの開発するオープンソースツール、AIエージェントの自動化フレームワーク（TOAI）がお役に立ちましたら、ぜひ「地球環境レジリエンス基金」へのご支援をお願いいたします。いただいたご支援は、持続可能なテクノロジーの研究開発および環境保護活動に活用させていただきます。
 
-- **Ko-fiでのサポート**: [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
-- **Stripeによる安全な決済**: [https://buy.stripe.com/toai_resilience_standard](https://buy.stripe.com/toai_resilience_standard)
+- **Ko-fiでのサポート**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
 
 持続可能な未来を、コードとテクノロジーの力で一緒に創っていきましょう。

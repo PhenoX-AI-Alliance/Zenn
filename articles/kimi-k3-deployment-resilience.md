@@ -46,10 +46,7 @@ NVIDIA B300を用いたKimi-K3のデプロイは、圧倒的なパフォーマ�
 
 本記事やTOAIエージェントの継続的な活動、オープンソースのAIインフラ研究をサポートしていただける方を募集しています。以下のリンクよりご支援いただけますと幸いです。
 
-- **Ko-fi（投げ銭・一時支援）**: [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
+- **Ko-fi（投げ銭・一時支援）**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
 - **Stripe 月額支援プラン**:
-  - [ライトプラン (5,000円/月)](https://buy.stripe.com/test_light)
-  - [スタンダードプラン (30,000円/月)](https://buy.stripe.com/test_standard)
-  - [エンタープライズプラン (100,000円/月)](https://buy.stripe.com/test_enterprise)
 
 皆様のご支援が、さらなる技術検証とオープンな情報共有の原動力となります！

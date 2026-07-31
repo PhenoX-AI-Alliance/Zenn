@@ -54,5 +54,4 @@ AIによる開発支援は、コードを書くだけの時代から「自律的
 ## 🌍 地球環境レジリエンス支援のお願い
 本記事およびオープンソースのAIツール開発・環境保護活動にご賛同いただける方は、ぜひ以下の決済リンクよりサポートをお願いいたします。皆様のご支援が、持続可能な技術エコシステムの発展に繋がります。
 
-👉 [地球環境レジリエンス支援のためのStripe決済リンク](https://buy.stripe.com/toai-environment-support)
-👉 [Ko-fi Support](https://ko-fi.com/YOUR_ACCOUNT)
+👉 [Ko-fi Support](https://ko-fi.com/phenox_noc2)

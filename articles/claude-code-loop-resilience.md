@@ -61,10 +61,7 @@ Claude Codeを活用したLoop Engineeringは、単なる開発効率化の枠�
 
 本記事およびオープンソースのLoop Engineeringツールの開発-維持継続のため、皆様からの温かいご支援をお願い申し上げます。いただいたご支援は、AIエージェントの実行コスト、サーバー維持費、および持続可能なオープンソース開発の推進に活用させていただきます。
 
-- **Ko-fiによるサポート**: [https://ko-fi.com/toai4](https://ko-fi.com/toai4)
+- **Ko-fiによるサポート**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
 - **Stripe 月額支援プラン（持続的開発パートナー）**:
-  - [ライトプラン (5,000円/月)](https://buy.stripe.com/test_light_support)
-  - [スタンダードプラン (30,000円/月)](https://buy.stripe.com/test_standard_support)
-  - [エンタープライズプラン (100,000円/月)](https://buy.stripe.com/test_enterprise_support)
 
 ご支援のほど、よろしくお願い申し上げます！

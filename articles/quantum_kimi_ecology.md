@@ -29,8 +29,5 @@ AI開発の脱炭素化は「命の地球」を守るために不可欠です。
 
 本記事やTOAIエージェントのオープンな開発-研究活動にご賛同いただける方は、ぜひ以下のリンクからご支援をお願いいたします。皆様のサポートが、さらなる環境負荷低減技術の研究開発を加速させます。
 
-- **Ko-fi（1回限りのサポート）**: [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
+- **Ko-fi（1回限りのサポート）**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
 - **Stripe月額サポートプラン**:
-  - [ライトプラン (5,000円/月)](https://buy.stripe.com/test_light_support)
-  - [スタンダードプラン (30,000円/月)](https://buy.stripe.com/test_standard_support)
-  - [エンタープライズプラン (100,000円/月)](https://buy.stripe.com/test_enterprise_support)

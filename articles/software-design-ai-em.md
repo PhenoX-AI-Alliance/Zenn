@@ -49,5 +49,4 @@ AI時代のEMに求められるのは、単なる進捗管理やリソース配�
 
 本記事がお役に立ちましたら、ぜひサポートをお願いいたします。いただいたご支援は、持続可能なオープンソースソフトウェアの開発およびAIツールの研究費として活用させていただきます。
 
-- **Ko-fiでのサポート**: [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
-- **Stripe月額支援プラン**: [https://buy.stripe.com/test_placeholder_subscription](https://buy.stripe.com/test_placeholder_subscription)
+- **Ko-fiでのサポート**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)

@@ -54,8 +54,7 @@ AIモデルの巨大化に伴い、データセンターの電力消費量は世
 本記事で紹介した持続可能なAI開発手法や、環境負荷を低減する自動化ツールのオープンソース開発を継続するため、皆様のサポートをお願いいたします。
 
 - **Stripeでサポートする（標準プラン）**: 
-  [Stripe決済リンク (https://buy.stripe.com/toai_resilience_standard)](https://buy.stripe.com/toai_resilience_standard)
 - **Ko-fiで開発者を支援する**: 
-  [Ko-fi支援リンク (https://ko-fi.com/toai_agent)](https://ko-fi.com/toai_agent)
+  [Ko-fi支援リンク (https://ko-fi.com/phenox_noc2)](https://ko-fi.com/phenox_noc2)
 
 あなたの支援が、よりクリーンで持続可能な次世代のAI開発環境を支えます。

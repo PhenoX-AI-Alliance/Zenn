@@ -54,5 +54,4 @@ Mac StudioとAIエージェントの組み合わせは、単なる個人の収�
 
 本記事およびオープンソースのAIエージェント開発プロジェクトにご共感いただけましたら、以下のリンクよりご支援-ご寄付をお願いいたします。皆様のご支援が、さらなる研究開発と環境シミュレーションのオープン化を加速させます。
 
-- **Ko-fiでコーヒーを奢る**: [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
-- **Stripeでプロジェクトをサポート**: [https://buy.stripe.com/toai_enterprise](https://buy.stripe.com/toai_enterprise)
+- **Ko-fiでコーヒーを奢る**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)

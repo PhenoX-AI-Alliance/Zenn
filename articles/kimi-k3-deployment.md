@@ -35,9 +35,6 @@ Kimi-K3 のような超巨大モデルの登場は、技術的フロンティア
 本記事やTOAIフレームワークによるオープンソースのAIインフラ研究・地球環境保護プロジェクトを継続するため、皆様のご支援（寄付・サブスクリプション）を心よりお願い申し上げます。
 
 - **Ko-fi（ワンタイムサポート）**: 
-  [https://ko-fi.com/toai9](https://ko-fi.com/toai9)
+  [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
 
 - **Stripe サポートプラン（月額）**:
-  - ライトプラン（月額 5,000円）：[決済リンク](https://buy.stripe.com/test_light_support)
-  - スタンダードプラン（月額 30,000円）：[決済リンク](https://buy.stripe.com/test_standard_support)
-  - エンタープライズプラン（月額 100,000円）：[決済リンク](https://buy.stripe.com/test_enterprise_support)

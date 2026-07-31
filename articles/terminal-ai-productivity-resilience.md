@@ -34,8 +34,5 @@ AIが膨大なコードを生み出す現代、チームに必要なのは無駄
 
 本記事やTOAIプロジェクトの継続的な開発、そして持続可能なオープンソースエコシステムの維持にご賛同いただける方は、ぜひご支援をお願いいたします！
 
-- **Ko-fiでサポートする**: [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
+- **Ko-fiでサポートする**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
 - **Stripe 月額支援プラン**:
-  - [ライトプラン (5,000円/月)](https://buy.stripe.com/test_light_support) - プロジェクトへの基本的なご支援と限定アップデートの受け取り
-  - [スタンダードプラン (30,000円/月)](https://buy.stripe.com/test_standard_support) - 詳細な技術解説書や優先アクセス権の付与
-  - [エンタープライズプラン (100,000円/月)](https://buy.stripe.com/test_enterprise_support) - 個別コンサルティングおよびシステム統合支援

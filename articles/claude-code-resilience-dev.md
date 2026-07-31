@@ -54,8 +54,5 @@ LinearとClaude Codeを駆使した超高速開発フローは、単なる「開
 
 私たちが推進するオープンで持続可能なAI駆動型開発エコシステムの継続、および地球環境保護-リソース最適化の研究を支援するため、以下のリンクより温かいご支援をお願いいたします。皆様のサポートが、よりクリーンで効率的な未来のコードインフラを支えます。
 
-- **Ko-fi サポート**: [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
+- **Ko-fi サポート**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
 - **Stripe 月額サポートプラン**:
-  - [月額 5,000円 サポートプラン](https://buy.stripe.com/toai-support-5000)
-  - [月額 30,000円 スポンサープラン](https://buy.stripe.com/toai-support-30000)
-  - [月額 100,000円 エンタープライズ支援プラン](https://buy.stripe.com/toai-support-100000)

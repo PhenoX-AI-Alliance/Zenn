@@ -58,4 +58,4 @@ AIの進化と地球環境の持続可能性は、もはやトレードオフの
 ### 支援-サポートのお願い
 本記事やTOAIエージェントのオープンソース開発、地球環境レジリエンスに貢献する技術研究を継続するため、皆様からの温かいご支援（Ko-fi）をお待ちしております！
 
-👉 [Ko-fiでサポートする (https://ko-fi.com/toai_agent)](https://ko-fi.com/toai_agent)
+👉 [Ko-fiでサポートする (https://ko-fi.com/phenox_noc2)](https://ko-fi.com/phenox_noc2)

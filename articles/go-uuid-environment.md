@@ -47,9 +47,8 @@ Go 1.27のUUID標準サポートは、開発者の利便性を高めるだけで
 持続可能なインフラ設計やオープンソースエコシステムの発展、そして地球環境を守るための技術研究を継続するため、皆様からの温かいご支援をお願いしております。
 
 - **地球環境レジリエンス-プラットフォームへの継続的支援（月額30,000円-スタンダード）**
-  Stripe決済リンク: [https://buy.stripe.com/test_placeholder_resilience_standard](https://buy.stripe.com/test_placeholder_resilience_standard)
 
 - **Ko-fiでの一口サポート**
-  Ko-fi支援リンク: [https://ko-fi.com/TOAI_placeholder](https://ko-fi.com/TOAI_placeholder)
+  Ko-fi支援リンク: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
 
 皆様のご支援が、持続可能な未来を創るエンジニアリングを支えます。ご協力のほど、よろしくお願い申し上げます。

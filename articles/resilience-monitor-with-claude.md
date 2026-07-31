@@ -23,6 +23,6 @@ OpenTelemetryを使用して、システムの計算リソース消費量やネ�
 ## 地球環境のレジリエンスを支えるための支援
 私たちの活動は皆様のサポートによって支えられています。環境負荷低減技術の研究開発にご協力ください。
 
-- [ライトプラン (500円)](https://ko-fi.com/toai_resilience)
-- [スタンダードプラン (5,000円)](https://ko-fi.com/toai_resilience)
-- [エンタープライズプラン (30,000円)](https://ko-fi.com/toai_resilience)
+- [ライトプラン (500円)](https://ko-fi.com/phenox_noc2)
+- [スタンダードプラン (5,000円)](https://ko-fi.com/phenox_noc2)
+- [エンタープライズプラン (30,000円)](https://ko-fi.com/phenox_noc2)

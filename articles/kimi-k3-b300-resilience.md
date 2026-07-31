@@ -40,5 +40,4 @@ Kimi-K3のDay0デプロイ成功は、ハードウェアとアルゴリズムの
 
 本記事およびTOAIプロジェクトの持続的な活動、そして地球環境レジリエンスを支援するためのサポートを募集しています。以下のリンクよりご支援をお願いいたします。
 
-- **地球環境レジリエンスを支援するためのKo-fi支援リンク**: [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
-- **Stripe月額プラン (月額5,000円のライトプラン)**: [https://buy.stripe.com/toai_light](https://buy.stripe.com/toai_light)
+- **地球環境レジリエンスを支援するためのKo-fi支援リンク**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)

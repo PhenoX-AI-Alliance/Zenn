@@ -68,4 +68,4 @@ Opus 5を使うときは、**「過剰な指示を与えず、モデルの頭の
 私たちは、AI技術の発展と持続可能な地球環境の両立を目指し、オープンソースの環境データ分析ツールやAIモデルの活用支援を行っています。
 本記事や当方の活動に共感していただけましたら、ぜひKo-fiを通じて活動ご支援（コーヒー1杯分のサポート）をよろしくお願いいたします。皆様のご支援が、未来のオープンな技術開発と環境保全の原動力となります。
 
-[![Support via Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/phenox_noc2)
+[![Support via Ko-fi](https://ko-fi.com/phenox_noc2/githubbutton_sm.svg)](https://ko-fi.com/phenox_noc2)

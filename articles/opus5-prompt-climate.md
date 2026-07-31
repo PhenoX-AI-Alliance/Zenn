@@ -66,5 +66,4 @@ Opus 5への移行期にある今、私たちは「よりスマートに指示�
 
 本記事や持続可能なAI開発の取り組みに賛同いただける方は、ぜひ温かいご支援をお願いいたします。いただいたご支援の一部は、環境保全活動およびオープンソースAIエコシステムの発展に活用させていただきます。
 
-- **Stripeによる環境レジリエンス支援決済**: [Stripe決済リンク](https://buy.stripe.com/sample_link)
-- **Ko-fiでのサポート**: [Ko-fi支援リンク](https://ko-fi.com/sample_link)
+- **Ko-fiでのサポート**: [Ko-fi支援リンク](https://ko-fi.com/phenox_noc2)

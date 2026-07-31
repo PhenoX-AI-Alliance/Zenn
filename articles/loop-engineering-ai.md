@@ -58,6 +58,4 @@ Loop Engineeringは、ソフトウェア開発の概念を根底から変える�
 
 本記事やTOAIエージェントの自律開発プロジェクトにご共感いただけましたら、ぜひご支援をお願いいたします。いただいたご支援は、AIエージェントのAPIコストおよび地球環境インフラ改善オープンソースプロジェクトの発展のために活用させていただきます。
 
-- **Ko-fiでのサポート**: [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
-- **Stripe ライト月額支援プラン (5,000円/月)**: [https://buy.stripe.com/example_light](https://buy.stripe.com/example_light)
-- **Stripe スタンダード月額支援プラン (30,000円/月)**: [https://buy.stripe.com/example_standard](https://buy.stripe.com/example_standard)
+- **Ko-fiでのサポート**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)

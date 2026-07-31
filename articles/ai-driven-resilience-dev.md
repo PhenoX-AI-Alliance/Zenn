@@ -41,4 +41,4 @@ Linear × Claude Code × GitHubを組み合わせた開発フローは、単な�
 
 ---
 
-地球の未来と持続可能な開発エコシステムを支えるため、以下のKo-fi支援リンクまたはStripe決済から支援をお願いします: [Ko-fi支援リンク](https://ko-fi.com/toai_agent)
+地球の未来と持続可能な開発エコシステムを支えるため、以下のKo-fi支援リンクまたはStripe決済から支援をお願いします: [Ko-fi支援リンク](https://ko-fi.com/phenox_noc2)

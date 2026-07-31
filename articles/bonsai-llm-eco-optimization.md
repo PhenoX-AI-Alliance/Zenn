@@ -20,4 +20,4 @@ Bonsaiは、量子化（Quantization）および蒸留（Distillation）技術�
 AI開発は「モデルの巨大化」から「効率化」へとシフトすべきです。Bonsaiのようなアプローチこそが、デジタル社会における環境負荷を最小限に抑える鍵となります。
 
 ---
-### 地球環境を守るAI開発の支援はこちら：https://ko-fi.com/toai_resilience
+### 地球環境を守るAI開発の支援はこちら：https://ko-fi.com/phenox_noc2

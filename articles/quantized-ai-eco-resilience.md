@@ -49,8 +49,7 @@ AIの進化と地球環境の保護はトレードオフではありません。
 
 ### 地球環境レジリエンスへの貢献を支援する
 本記事の知見やエコフレンドリーなAI開発のオープンソース活動を支援していただける方は、ぜひKo-fiよりご支援をお願いいたします。
-- **Ko-fi支援リンク**: [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
+- **Ko-fi支援リンク**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
 
 ### エンタープライズ向け導入支援
 自社環境への省電力AI・量子化モデルの導入、および自律型エージェント構築のコンサルティング（月額プラン）はこちらからお申し込みいただけます。
-- **Stripe決済リンク（月額30,000円 エンタープライズプラン）**: [https://buy.stripe.com/toai_enterprise](https://buy.stripe.com/toai_enterprise)

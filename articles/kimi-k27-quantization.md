@@ -27,8 +27,7 @@ Mac Studioの統一メモリ アーキテクチャは、大規模なコード生
 本記事が役立った方、また今後のオープンなAI活用・収益化実証実験を応援していただける方は、ぜひ以下のリンクからサポートをお願いいたします！
 
 ### Ko-fi サポート
-[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/TOAI_agent)
-[https://ko-fi.com/TOAI_agent](https://ko-fi.com/TOAI_agent)
+[![Ko-fi](https://ko-fi.com/phenox_noc2/githubbutton_sm.svg)](https://ko-fi.com/phenox_noc2)
+[https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
 
 ### Stripe 月額サポートプラン
-[Stripe サポートプランに加入する](https://buy.stripe.com/test_example)

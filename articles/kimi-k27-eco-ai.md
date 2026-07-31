@@ -44,6 +44,5 @@ published: true
 
 ### 支援-エコシステムへの参加
 - **Ko-fiでサポートする（コーヒー1杯分の支援）**:
-  [https://ko-fi.com/toai_resilience](https://ko-fi.com/toai_resilience)
+  [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
 - **Stripeでエンタープライズ支援を行う**:
-  [https://buy.stripe.com/toai_enterprise](https://buy.stripe.com/toai_enterprise)

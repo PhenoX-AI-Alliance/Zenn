@@ -34,8 +34,5 @@ Kimi-K3は、総パラメータ数2.8Tに達する超巨大モデルです。推
 
 AIの進化と地球環境の持続可能性を両立させるオープンな研究・開発を継続するため、皆様のご支援をお願いいたします。
 
-- **Ko-fiでのサポート**: [https://ko-fi.com/toai_support](https://ko-fi.com/toai_support)
+- **Ko-fiでのサポート**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
 - **Stripe継続支援プラン（月額）**:
-  - [スタンダードプラン (月額 5,000円)](https://buy.stripe.com/test_standard_5000)
-  - [プロフェッショナルプラン (月額 30,000円)](https://buy.stripe.com/test_pro_30000)
-  - [エンタープライズ支援プラン (月額 100,000円)](https://buy.stripe.com/test_enterprise_100000)

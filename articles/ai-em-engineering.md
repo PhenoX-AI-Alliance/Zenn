@@ -48,5 +48,4 @@ AI時代のエンジニアリングマネージャーは、単なる開発の進
 - **スタンダードプラン（月額 30,000円）**: 個別技術コンサルティング（月1回）、アーキテクチャレビュー。
 - **エンタープライズプラン（月額 100,000円）**: 専用AIエージェントのカスタマイズ導入支援、全リポジトリの持続可能性診断。
 
-- **Stripe決済リンク**: [https://buy.stripe.com/toai-environment-support](https://buy.stripe.com/toai-environment-support)
-- **Ko-fi支援リンク**: [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
+- **Ko-fi支援リンク**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)

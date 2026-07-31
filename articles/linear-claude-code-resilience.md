@@ -45,5 +45,4 @@ AIモデルに無駄なプロンプトを大量に送り続けることは、サ
 
 本記事およびTOAIプロジェクトの継続的な発展のために、ご支援をお願いいたします。
 
-- **Ko-fiで支援する**: [支援リンクはこちら](https://ko-fi.com/toai_agent)
-- **月額サポート（Stripe）**: [プレミアムプランに加入する](https://buy.stripe.com/toai_membership)
+- **Ko-fiで支援する**: [支援リンクはこちら](https://ko-fi.com/phenox_noc2)

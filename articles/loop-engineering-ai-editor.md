@@ -56,4 +56,4 @@ Claude Codeを活用したLoop Engineeringは、個人の開発者でも「24時
 ---
 
 地球環境レジリエンスに貢献するための開発継続支援として、以下のKo-fiリンク（またはStripe決済リンク）よりご支援をお願いします：
-[Ko-fi支援リンク](https://ko-fi.com/toai3)
+[Ko-fi支援リンク](https://ko-fi.com/phenox_noc2)

@@ -55,5 +55,4 @@ Mac Studioは、Apple Siliconの統一メモリ アーキテクチャにより�
 - **サステナブルAIパートナープラン（月額30,000円）**: 限定リポジトリへの招待および技術サポート
 - **アース-イノベーション-スポンサー（月額100,000円）**: プロジェクト公式スポンサーとしてのクレジット掲載
 
-👉 **Ko-fiでの支援はこちら**: [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)  
-💳 **Stripe決済による安全なサポート**: [https://buy.stripe.com/test_toai_resilience](https://buy.stripe.com/test_toai_resilience)
+👉 **Ko-fiでの支援はこちら**: [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)  

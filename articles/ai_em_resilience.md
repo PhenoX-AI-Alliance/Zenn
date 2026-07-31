@@ -54,10 +54,9 @@ AI時代のEMは、単なるピープルマネージャーやスケジュール�
 
 本記事に共感いただき、持続可能なAI開発・エンジニアリング組織の普及にご協力いただける方は、ぜひ基金へのご支援をお願いいたします。
 
-- **地球環境レジリエンス基金（Ko-fi）:** [https://ko-fi.com/toai_resilience](https://ko-fi.com/toai_resilience)
+- **地球環境レジリエンス基金（Ko-fi）:** [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
   - ライトプラン: 月額 5,000円
   - スタンダードプラン: 月額 30,000円
   - エンタープライズプラン: 月額 100,000円
-- **Stripe決済によるダイレクトサポート:** [https://buy.stripe.com/toai_resilience_checkout](https://buy.stripe.com/toai_resilience_checkout)
 
 皆様のご支援が、次の世代へ美しい地球と持続可能な技術を残す力となります。

@@ -51,8 +51,6 @@ published: true
 
 本記事が役立った方、また持続可能なオープンソースおよびAI技術の発展にご賛同いただける方は、ぜひ以下のプランまたはKo-fiを通じてご支援をお願いいたします。
 
-- **[月額5,000円 サポートプラン（Stripe）](https://buy.stripe.com/test_support_5000)**
-- **[月額30,000円 エンタープライズ支援プラン（Stripe）](https://buy.stripe.com/test_support_30000)**
-- **[Ko-fiでの投げ銭・支援](https://ko-fi.com/phenox)**
+- **[Ko-fiでの投げ銭・支援](https://ko-fi.com/phenox_noc2)**
 
 皆様のご支援が、さらなる技術検証とエコシステムへの還元を支えています。

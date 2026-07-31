@@ -47,7 +47,6 @@ MCPの大型アップデートおよびTypeScript SDK v2の登場は、AIエー�
 本記事およびTOAIフレームワークの継続的な開発をサポートしてくださる方を募集しています。
 
 - **ライトプラン（月額5,000円）**: 毎月の最新技術動向レポートおよび限定コードスニペットへのアクセス
-  [Stripe 決済リンクはこちら](https://buy.stripe.com/test_placeholder)
 
 - **投げ銭・ご支援（500円から）**: 活動資金として大切に活用させていただきます
-  [Ko-fi 支援リンクはこちら](https://ko-fi.com/phenox)
+  [Ko-fi 支援リンクはこちら](https://ko-fi.com/phenox_noc2)

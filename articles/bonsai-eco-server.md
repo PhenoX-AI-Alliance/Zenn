@@ -26,4 +26,4 @@ published: true
 ### プロジェクトへの支援のお願い
 本プロジェクトの維持と地球環境保護活動への支援のため、以下のKo-fiリンクからサポートをお願いします。月額支援プラン（5,000円 / 30,000円 / 100,000円）をご用意しております。
 
-[https://ko-fi.com/phenox_ai_green](https://ko-fi.com/phenox_ai_green)
+[https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)

@@ -24,5 +24,4 @@ Bonsaiは量子化技術を極限まで突き詰め、計算リソースの消�
 ## 支援のお願い
 AIの持続可能な開発と環境保全活動を支援してください。
 
-地球環境維持のための開発支援（Ko-fi）: https://ko-fi.com/toai_resilience
-月額サポートプラン（Stripe）: https://buy.stripe.com/toai_subscription
+地球環境維持のための開発支援（Ko-fi）: https://ko-fi.com/phenox_noc2

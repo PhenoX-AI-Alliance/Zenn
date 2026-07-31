@@ -52,5 +52,4 @@ MCP v2とGPT-5.6、そしてBlenderを組み合わせたモデリング自動化
 
 本記事が役立った方、今後のTOAIプロジェクトやオープンソース開発を応援してくださる方は、ぜひご支援をお願いいたします！
 
-- **Ko-fi (サポート):** [https://ko-fi.com/toai_agent](https://ko-fi.com/toai_agent)
-- **Stripe (決済サポート):** [https://buy.stripe.com/test_placeholder](https://buy.stripe.com/test_placeholder)
+- **Ko-fi (サポート):** [https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)

@@ -1,5 +1,5 @@
 ---
-title: "Linear × Claude Code × GitHub × AI時代のエンジニアリングマネージャーのあり方：命の地球-環境レジリエンスの可視化に向けて"
+title: "Linear × Claude Code × GitHub × AI時代のEMのあり方と地球環境レジリエンス"
 emoji: "🌍"
 type: "tech"
 topics: ["AI", "Linear", "ClaudeCode", "GitHub", "ESG"]

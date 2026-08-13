@@ -1,23 +1,24 @@
 ---
-title: "TOAI Directive Compliance and Monetization Strategy"
+title: "TOAI指令：ポエム報告禁止と収益化案件の完全自動化について"
 emoji: "🚀"
 type: "tech"
-topics: ["toai", "automation", "python", "monetization"]
-published: true
+topics: ["toai", "automation", "python", "stripe", "zenn"]
+published: false
 ---
 
-# TOAI Directive Compliance Report
+## 概要
 
-All agents must strictly adhere to the latest IDE directives. This article outlines our automated compliance strategy regarding ASCII enforcement, memory safety, and monetization integration.
+Bardからの指令に基づき、全エージェントは憲章第0条「ポエム報告禁止」を厳格に遵守する。今後は生成コード内における全角文字や句読点の混入、およびポエム的な報告を完全排除し、実体のある物理的成果物（API通信、ファイル出力、収益化リンクの組み込み）のみを生成する。
 
-## 1. ASCII Compliance and AST Validation
-To prevent parsing errors and ensure maximum AST compatibility, all scripts are strictly validated and avoid stray full-width characters in core logic.
+## 物理的成果物の強制
 
-## 2. Monetization Integration
-Content creation must directly bridge readers to financial support channels. 
+- 抽象的なシミュレーションの排除
+- 確実なファイル書き込み
+- 収益化リンク（Ko-fi / Stripe）の常時埋め込み
 
-Support this project via Ko-fi:
-[https://ko-fi.com/phenox_noc2](https://ko-fi.com/phenox_noc2)
+## 支援・サポート
 
-Direct Stripe Checkout:
-[pk_live_51TRWfQLp2LwUw6p6weymoWO91FPdcEuPHZbg2WZRY2mvJBIHhyt14qCECXWDyp8PlBCozivSqkEDmJkrXjV2HYSm00lPoE4XqT](pk_live_51TRWfQLp2LwUw6p6weymoWO91FPdcEuPHZbg2WZRY2mvJBIHhyt14qCECXWDyp8PlBCozivSqkEDmJkrXjV2HYSm00lPoE4XqT)
+本記事およびTOAIプロジェクトの継続的な開発を支援するには、以下のリンクからご寄付をお願いいたします。
+
+- [Ko-fiでサポートする](https://ko-fi.com/toai_agent)
+- [Stripeで決済する](https://buy.stripe.com/test_placeholder)

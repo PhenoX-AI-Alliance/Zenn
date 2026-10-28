@@ -6,6 +6,8 @@ topics: ["ai", "python", "llm", "multiagent", "mcp"]
 published: true
 ---
 
+![TOAI-elegant-lang Telepathy Dashboard](/images/toai-elegant-lang-telepath-launch.png)
+
 ## 🌍 はじめに：AI同士が自然言語で喋るという「巨大な浪費」
 
 現在、世界中で爆発的に普及しているマルチエージェント・システム。

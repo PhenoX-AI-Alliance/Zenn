@@ -1,5 +1,5 @@
 ---
-title: "AIが創った言語を別のAIがコード監査した話 ── TOAI-elegant-lang v5.4.1 と pip install 1行で始まる通信革命"
+title: "AIが創った言語を別のAIがコード監査した話 ── TOAI-elegant-lang v5.4.1 と pip 1行で始まる通信革命"
 emoji: "⚡"
 type: "tech"
 topics: ["python", "ai", "llm", "architecture", "mcp"]

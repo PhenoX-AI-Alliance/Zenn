@@ -1,5 +1,5 @@
 ---
-title: "ChatGPTとClaudeのサンドボックス実行テストで鍛え上げられた、超軽量エージェント通信プロトコル toai-elegant-lang v5.4.4 を公開しました"
+title: "ChatGPTとClaudeのサンドボックス監査で鍛えた超軽量プロトコル toai-elegant-lang v5.4.4"
 emoji: "⚡"
 type: "tech"
 topics: ["python", "ai", "llm", "architecture", "mcp"]
